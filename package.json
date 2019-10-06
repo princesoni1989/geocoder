@@ -1,0 +1,30 @@
+{
+  "name": "geocoder_node",
+  "version": "1.0.0",
+  "description": "This module contains basic Geo coding methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 150000",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- ./test/**/*"
+  },
+  "author": {
+    "name": "Prince Soni",
+    "email": "1989prince.soni@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/princesoni1989/geocoder/issues"
+  },
+  "keywords": [
+    "node",
+    "geocoder",
+    "latitude",
+    "longitude"
+  ],
+  "homepage": "https://github.com/princesoni1989/geocoder#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
+}
